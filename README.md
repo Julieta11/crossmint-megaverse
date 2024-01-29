@@ -1,6 +1,6 @@
 # Megaverse Creation Challenge Solution
 
-Welcome to my solution for the Crossmint coding challenge. I've crafted a unique Megaverse-- a captivating 2D space teeming with celestial wonders like 🪐POLYanets, 🌙SOLoons, and ☄comETHs.
+Welcome to my solution for the Crossmint coding challenge. I've crafted a unique Megaverse-- a 2D space teeming with celestial wonders like 🪐POLYanets, 🌙SOLoons, and ☄comETHs.
 
 ## Table of Contents
 
@@ -21,7 +21,6 @@ Navigate to the cloned repository directory and install the necessary dependenci
 ```bash
 npm install
 ```
-This ensures that all required packages and modules are properly installed.
 
 3. Set up Docker Environment:
 Set up the Docker environment for containerized execution. Ensure Docker is installed on your machine and run the following command to build the Docker image:
@@ -29,7 +28,6 @@ Set up the Docker environment for containerized execution. Ensure Docker is inst
 ```bash
 make build
 ```
-This command creates the Docker image with the required configuration for the Megaverse creation process.
 
 4. Set Up Environment Variables:
 Ensure you have set up the required env variables. Create a .env file in the root of the project and add the following configs:
@@ -86,6 +84,6 @@ Ensure the following dependencies are installed before running the solution:
 - [Docker](https://www.docker.com/): Containerization platform for consistent execution.
 - [Make](https://www.gnu.org/software/make/): Build automation tool for simplified execution.
 
-## Automated Testing
+## Testing
 
-The repository includes automated tests to validate the functionality of the Megaverse creation process. Run tests using `make test`.
+Run tests using `make test`.
