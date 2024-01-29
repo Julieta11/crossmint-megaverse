@@ -8,7 +8,7 @@ Welcome to my solution for the Crossmint coding challenge. I've crafted a unique
 - [API Endpoints](#api-endpoints)
 - [Folder Structure](#folder-structure)
 - [Dependencies](#dependencies)
-- [Automated Testing](#automated-testing)
+- [Testing](#testing)
 
 ## Getting Started
 
