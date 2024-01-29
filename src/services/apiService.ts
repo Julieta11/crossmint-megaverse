@@ -19,7 +19,7 @@ const fetcher: Fetcher = customFetcher
 const logger: Logger = customLogger
 
 class ApiServiceImpl implements ApiService {
-    /**
+  /**
    * Creates a Megaverse based on the goal map retrieved for a candidate.
    * @returns A Promise indicating whether the Megaverse creation was successful (true) or not (false).
    * @throws If there's an error during the creation process or if the response structure is invalid.

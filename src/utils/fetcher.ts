@@ -31,7 +31,6 @@ const customFetcher: Fetcher = {
       return responseData
     } catch (error) {
       if (error instanceof FetchError) {
-        logger.error(`Error in fetcher: ${error.message}`)
         throw error // Re-throw the custom FetchError
       } else {
         // Handle other types of errors or rethrow them

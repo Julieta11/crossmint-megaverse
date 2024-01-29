@@ -15,7 +15,7 @@ Welcome to my solution for the Crossmint coding challenge. I've crafted a unique
 To dive into the Megaverse creation process, follow these steps:
 
 1. Clone the repository to your local machine.
-2. Install Dependencies
+2. Install Dependencies:
 Navigate to the cloned repository directory and install the necessary dependencies by running:
 
 ```bash
@@ -23,7 +23,7 @@ npm install
 ```
 This ensures that all required packages and modules are properly installed.
 
-3. Set up Docker Environment
+3. Set up Docker Environment:
 Set up the Docker environment for containerized execution. Ensure Docker is installed on your machine and run the following command to build the Docker image:
 
 ```bash
@@ -31,7 +31,18 @@ make build
 ```
 This command creates the Docker image with the required configuration for the Megaverse creation process.
 
-4. Execute Megaverse Creation
+4. Set Up Environment Variables:
+Ensure you have set up the required env variables. Create a .env file in the root of the project and add the following configs:
+
+```
+BASE_URL=http://localhost
+PORT=3000
+LOG_LEVEL=info
+CROSSMINT_API_URL=https://challenge.crossmint.io/api/
+CANDIDATE_ID=ce0172cc-2b78-46bc-8142-41085e2191d8
+```
+
+5. Execute Megaverse Creation:
 Once the Docker image is successfully built, execute the Megaverse creation process by running:
 
 ```bash
