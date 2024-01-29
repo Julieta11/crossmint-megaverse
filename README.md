@@ -43,14 +43,12 @@ Once the Megaverse is up and running, you can interact with the following API en
 
 Create Megaverse:
 ```
-Endpoint: http://localhost:3000/api/createMegaverse
-Method: POST
+curl --location --request POST 'http://localhost:3000/api/createMegaverse'
 ```
 
 Empty Megaverse:
 ```
-Endpoint: http://localhost:3000/api/emptyMegaverse
-Method: DELETE
+curl --location --request DELETE 'http://localhost:3000/api/emptyMegaverse'
 ```
 
 These endpoints allow you to perform specific actions within the Megaverse environment. Make sure to use the appropriate HTTP methods when interacting with each endpoint.
