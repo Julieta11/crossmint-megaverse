@@ -1,0 +1,33 @@
+{
+  "name": "planet-challenge",
+  "version": "1.0.0",
+  "description": "Create your own megaverse challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "lint:fix": "eslint '**/*.{js,ts,tsx}' --quiet --fix",
+    "lint:check": "eslint '**/*.{js,ts,tsx}' --quiet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "planet-challenge"
+  },
+  "author": "jmilloch.dev",
+  "license": "ISC",
+  "devDependencies": {
+    "@dcl/eslint-config": "^2.0.0",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.11.7",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "cross-fetch": "^4.0.0",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "winston": "^3.11.0"
+  }
+}
